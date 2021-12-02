@@ -1,5 +1,5 @@
-This model utilizes the all-mpnet-base-v2 sentence transformer to compute the similarity score of an instagram caption and compare it to a previously created dataset of health claims. </br></br>
-The goal is to find out if something in an instagram caption contains a possible health claims that might violates regulations.</br></br>
+This model utilizes the all-mpnet-base-v2 sentence transformer to compute the embeddings of an instagram caption and compare it to tje embeddings of a previously created dataset of health claims. </br></br>
+The goal is to find out if something in an instagram caption contains a possible health claims that might violates regulations, using a computed similarity score.</br></br>
 
 steps:</br></br>
 1- read health claims dataset and create embeddings</br>
